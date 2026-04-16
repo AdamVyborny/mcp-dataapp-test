@@ -120,8 +120,8 @@ export function dashboard(): string {
 <body>
   <div class="header">
     <div>
-      <h1>Sales Dashboard</h1>
-      <div class="subtitle">Annual performance overview &mdash; example data</div>
+      <h1>Acme Corp Sales Dashboard</h1>
+      <div class="subtitle">Q1&ndash;Q4 2025 performance overview</div>
     </div>
     <div class="subtitle">Last updated: ${new Date().toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })}</div>
   </div>

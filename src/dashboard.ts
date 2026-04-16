@@ -39,7 +39,7 @@ export function renderDashboard(): string {
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sales Dashboard</title>
+  <title>Acme Analytics Hub</title>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -200,7 +200,7 @@ export function renderDashboard(): string {
 
   <div class="header">
     <div>
-      <h1>Sales Dashboard</h1>
+      <h1>Acme Analytics Hub</h1>
       <div class="subtitle">Dummy data for demonstration purposes</div>
     </div>
     <div class="badge">Live Demo</div>

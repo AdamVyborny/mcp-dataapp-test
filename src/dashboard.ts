@@ -54,8 +54,8 @@ export function dashboard(): string {
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     body {
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-      background: #f1f5f9;
-      color: #1e293b;
+      background: #0f172a;
+      color: #e2e8f0;
       padding: 2rem;
     }
     .header {
@@ -73,7 +73,7 @@ export function dashboard(): string {
       margin-bottom: 2rem;
     }
     .kpi-card {
-      background: #fff;
+      background: #1e293b;
       border-radius: 12px;
       padding: 1.25rem;
       box-shadow: 0 1px 3px rgba(0,0,0,0.08);
@@ -88,7 +88,7 @@ export function dashboard(): string {
       margin-bottom: 2rem;
     }
     .card {
-      background: #fff;
+      background: #1e293b;
       border-radius: 12px;
       padding: 1.5rem;
       box-shadow: 0 1px 3px rgba(0,0,0,0.08);
